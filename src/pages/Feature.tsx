@@ -1,5 +1,12 @@
+import CocktailHome from "./cocktails/CocktailHome";
+
 const Feature = () => {
-  return <div>Yo</div>;
+  return (
+    <div>
+      yo
+      <CocktailHome />
+    </div>
+  );
 
   //weather app
   //look at file structure, component stricture? look at alternatives
